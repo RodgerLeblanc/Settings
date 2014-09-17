@@ -1,4 +1,4 @@
-Settings (project)
+Settings (project) (intermediate)
 --------------
 This sample app shows how to implement Settings object into a project and access it from QML. Settings object can be access from c++ too, exactly the same way as QSettings, except that I recommend using a pointer to refer to this object instead of calling it directly, but this is not mandatory.
 

@@ -44,12 +44,12 @@ config_pri_assets {
 
 config_pri_source_group1 {
     SOURCES += \
-        $$quote($$BASEDIR/src/Settings.cpp) \
+        $$quote($$BASEDIR/src/Settings/Settings.cpp) \
         $$quote($$BASEDIR/src/applicationui.cpp) \
         $$quote($$BASEDIR/src/main.cpp)
 
     HEADERS += \
-        $$quote($$BASEDIR/src/Settings.h) \
+        $$quote($$BASEDIR/src/Settings/Settings.h) \
         $$quote($$BASEDIR/src/applicationui.hpp)
 }
 
@@ -64,6 +64,11 @@ lupdate_inclusion {
         $$quote($$BASEDIR/../src/*.cc) \
         $$quote($$BASEDIR/../src/*.cpp) \
         $$quote($$BASEDIR/../src/*.cxx) \
+        $$quote($$BASEDIR/../src/Settings/*.c) \
+        $$quote($$BASEDIR/../src/Settings/*.c++) \
+        $$quote($$BASEDIR/../src/Settings/*.cc) \
+        $$quote($$BASEDIR/../src/Settings/*.cpp) \
+        $$quote($$BASEDIR/../src/Settings/*.cxx) \
         $$quote($$BASEDIR/../assets/*.qml) \
         $$quote($$BASEDIR/../assets/*.js) \
         $$quote($$BASEDIR/../assets/*.qs) \

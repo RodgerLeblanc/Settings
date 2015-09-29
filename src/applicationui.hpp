@@ -18,7 +18,7 @@
 #define ApplicationUI_HPP_
 
 #include <QObject>
-#include "Settings.h"
+#include "src/Settings/Settings.h"
 
 namespace bb
 {
